@@ -1,0 +1,5 @@
+.env
+/data/default/config.yaml
+/data/default/blueset.telegram/config.yaml
+/data/default/blueset.telegram/tgdata.db
+/data/default/blueset.wechat

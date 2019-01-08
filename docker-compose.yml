@@ -1,0 +1,11 @@
+version: '2'
+
+services:
+
+### Applications Code Container #############################
+
+    eh-forwarder-bot:
+      image: alipeng/docker-ehforwarderbot:latest
+      volumes:
+        - ${EFB_DATA_PATH}:/data/root/profiles
+      restart: always
